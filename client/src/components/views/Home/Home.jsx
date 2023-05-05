@@ -40,6 +40,7 @@ const Home = () => {
           setCurrentPag={setCurrentPag}
           orderRating={orderRating}
           setOrderName={setOrderName}
+          orderName={orderName}
         />
       </div>
       <div>
@@ -67,6 +68,7 @@ const Home = () => {
             paginado={paginado}
             currentPag={currentPag}
             setCurrentPag={setCurrentPag}
+            setPokemonsPerPage={setPokemonsPerPage}
           />
         </div>
         <div>
