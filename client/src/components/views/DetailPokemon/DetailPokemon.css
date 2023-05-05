@@ -1,0 +1,94 @@
+.container-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../img/fondoDetail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.detail-general{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255, 0.3);
+  width: 65%;
+  height: 80%;
+  border-radius: 25%;
+
+}
+.iconDetail{
+  height: 65px;
+  width: 65px;
+}
+.conImgName{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 350px;
+}
+.conImgName img{
+  width: 500px;
+}
+.conImgName h1{
+  font-family: 'Pokemon';
+  font-size: 80px;
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+  margin-top: -125px;
+}
+.container-description{
+  display: flex;
+  flex-direction: column;
+  margin-left: -250px;
+  margin-right: 150px;
+}
+.description{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.description p{
+  margin-left: 50px;
+  margin-bottom: 25px;
+  font-family: 'Pokemon';
+  -webkit-text-stroke: 1px #e9dd8a;
+  font-size: 20px;
+}
+.ulTypes{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: -100px;
+  font-family: 'Pokemon';
+  -webkit-text-stroke: 1px #e9dd8a;
+  font-size: 30px;
+}
+.iconType{
+  width: 50px;
+}
+.exit-img2{
+  width: 150px;
+  margin-right: 90px;
+  margin-left: -200px;
+  margin-bottom: 500px;
+}
+.div-button{
+  margin-top: -30px;
+}
+.button-detail{
+    position: relative;
+    margin-left: 55px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 20px;
+    font-size: 20px;
+    margin-top: -35px;
+    font-family: 'Pokemon';
+    -webkit-text-stroke: 1px #e9dd8a;
+    cursor: pointer;
+}
+.button-detail:hover{
+  background-color: aquamarine;
+}

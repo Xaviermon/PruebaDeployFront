@@ -1,0 +1,67 @@
+.container{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url("../../../img/fondoLanding.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  font-family: "Press Start 2P", cursive;
+  color: rgb(0, 0, 0);
+}
+.div-img{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.start-button{
+  margin-right: 70px;
+  width: 200px;
+  transition: all 0.2s;
+}
+.start-button:hover{
+  width: 190px;
+}.start-button:active{
+  width: 180px;
+}
+
+.capsula{
+  display: flex;
+  flex-direction: column;
+}
+.div-frase{
+  padding: 18px;
+  margin-top: 50px;
+  width: 50%;
+}
+.div-frase p{
+  font-size: 25px;
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136)
+}
+.div-titulo{
+  width: 100%;
+  height: 250px;
+  margin-left: -18px;
+  margin-top: -65px;
+}
+.div-titulo div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div-titulo div h1{
+  margin-right: 20px;
+  margin-bottom: -85px;
+  font-family: 'Pokemon';
+  font-size: 45px;
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136)
+}

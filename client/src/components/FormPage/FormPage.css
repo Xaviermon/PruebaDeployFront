@@ -1,0 +1,238 @@
+.container-allForm {
+  background-image: url(../../img/fondoCharmander.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.nombre-home {
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-right: -300px;
+}
+.nombre-home h1 {
+  font-family: "Pokemon";
+  font-size: 60px;
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+
+.container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 450px;
+  margin-right: 200px;
+  height: 80%;
+  width: 30vw;
+  background: rgba(255, 255, 255, 0.4);
+}
+.container-cardForm {
+  display: flex;
+  margin-top: 50px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form p {
+  margin-left: 80px;
+  font-size: 15px;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  color: red;
+}
+.name-form {
+  margin-top: -40px;
+  margin-bottom: -10px;
+  font-size: 40px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-form {
+  padding: 3px;
+  font-size: 16px;
+  border-width: 5px;
+  border-color: #756c6c;
+  background-color: transparent;
+  color: #bf8989;
+  border-style: solid;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+.icons {
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
+.input-name label {
+  margin-right: 25px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-name2 label {
+  margin-right: 25px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-name3 label {
+  margin-right: 55px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-name4 label {
+  margin-right: 25px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-name5 label {
+  margin-right: 10px;
+  margin-left: -10px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-name6 label {
+  margin-right: 25px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-name7 label {
+  margin-right: 15px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+.input-name8 label {
+  margin-right: 15px;
+  font-size: 20px;
+  font-family: "Pokemon";
+  color: #e9dd8a;
+  -webkit-text-stroke: 1px rgb(139, 136, 136);
+}
+
+.select-types select {
+  margin-top: 25px;
+  font-family: "Westryder Slab Round";
+  display: inline-block;
+  width: 250px;
+  cursor: pointer;
+  padding: 14px 27px;
+  outline: 0;
+  border: 0px solid #000000;
+  border-radius: 15px;
+  background: #0a2647;
+  color: #e9dd8a;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select-types select::-ms-expand {
+  display: none;
+}
+.select-types select:hover,
+.select-types select:focus {
+  color: #000000;
+  background: #edb83d;
+}
+.select-types select:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.select_arrow2 {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0px 5px;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.select-types select:hover ~ .select_arrow,
+.select-types select:focus ~ .select_arrow {
+  border-top-color: #000000;
+}
+.select-types select:disabled ~ .select_arrow {
+  border-top-color: #cccccc;
+}
+
+.buttonfrom {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  background: #0a2647;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 15px;
+  transition: 0.5s;
+}
+.buttonfrom:hover {
+  color: #fff;
+  background: #edb83d;
+  box-shadow: 0 0 10px solid #edb83d, inset 0 0 10px solid #edb83d;
+}
+
+.loader {
+  position: relative;
+  font-size: 48px;
+  letter-spacing: 6px;
+  margin-top: 150px;
+}
+.loader:before {
+  content: "Loading";
+  color: #fff;
+}
+.loader:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #ff3d00;
+  background-image: radial-gradient(circle 2px, #fff4 100%, transparent 0),
+    radial-gradient(circle 1px, #fff3 100%, transparent 0);
+  background-position: 14px -4px, 12px -1px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: -5px;
+  right: 66px;
+  transform-origin: center bottom;
+  animation: fillBaloon 1s ease-in-out infinite alternate;
+}
+
+@keyframes fillBaloon {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(3);
+  }
+}
+.asterisco {
+  color: red;
+  font-size: 25px;
+}

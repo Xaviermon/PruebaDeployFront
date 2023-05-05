@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/westryder-slab-round');
+
+.select-name{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 85%;
+    font-family: 'Westryder Slab Round';
+}
+.pNombre{
+    align-items: center;
+}
+.select-name select {
+    font-family: 'Westryder Slab Round';
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 14px 27px;
+    outline: 0;
+    border: 0px solid #000000;
+    border-radius: 62px;
+    background: #31d0ab;
+    color: #e9dd8a;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.select-name select::-ms-expand {
+    display: none;
+}
+.select-name select:hover,
+.select-name select:focus {
+    color: #000000;
+    background: #cccccc;
+}
+.select-name select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+.select_arrow {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    pointer-events: none;
+    border-style: solid;
+    border-width: 8px 5px 0px 5px;
+    border-color: #7b7b7b transparent transparent transparent;
+}
+.select-name select:hover ~ .select_arrow,
+.select-name select:focus ~ .select_arrow {
+    border-top-color: #000000;
+}
+.select-name select:disabled ~ .select_arrow {
+    border-top-color: #cccccc;
+}

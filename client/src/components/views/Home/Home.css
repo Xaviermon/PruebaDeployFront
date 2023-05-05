@@ -1,0 +1,31 @@
+.container-home {
+  display: flex;
+  background-image: url(../../../img/fondoHome.png);
+}
+.container-home-create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home,
+.create{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.home h2{
+    color: #e9dd8a;
+    font-family: 'Pokemon';
+    font-size: 20px;
+    -webkit-text-stroke: 1px rgb(139, 136, 136);
+    font-size: 40px;
+}
+.create h2{
+    color: #e9dd8a;
+    font-family: 'Pokemon';
+    font-size: 20px;
+    -webkit-text-stroke: 1px rgb(139, 136, 136);
+    font-size: 40px; 
+}        
+.exit-img{
+  width: 100px;
+}
